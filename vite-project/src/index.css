@@ -1,0 +1,51 @@
+:root {
+  background-color: rgba(36, 35, 53, 0.941);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px ;
+}
+h2,
+h1 {
+  color: white;
+}
+
+.searc {
+  display: flex;
+  flex-direction: row;
+}
+
+.searc > input, label {
+  display: block;
+}
+
+.Tarefas {
+  width: 100%;
+  background-color: rgba(36, 35, 53, 0.941);
+  padding: 0px 10px;
+  border-radius: 05px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Tarefas>p{
+  margin: 10px 15px;
+}
+.editar {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  
+  justify-content: space-around;
+}
+.geral {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: -250px;
+ top: 200px;
+}

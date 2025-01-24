@@ -17,15 +17,15 @@ const AdicionarTarefa = () => {
 
         <div className="filho">
           <label htmlFor="">Priority</label>
-          <input placeholder='sahghgsa' type="text" name="" id="" />
+          <input placeholder="sahghgsa" type="text" name="" id="" />
         </div>
 
         <div className="filho">
-          <label htmlFor="">Descriptio</label>
-          <textarea placeholder='Descrever' name="" id=""></textarea>
+          <label htmlFor="">Description</label>
+          <textarea placeholder="Descrever" name="" id=""></textarea>
         </div>
+        <button>Save</button>
       </div>
-      <button>Save</button>
     </div>
   );
 }

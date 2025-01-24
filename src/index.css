@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   background-color: rgb(65, 105, 225);
 }
@@ -12,6 +14,10 @@ body,
   background-color: #ffffff;
   border-radius: 20px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
 }
 
 * {
@@ -88,16 +94,40 @@ label {
   display: flex;
   flex-direction: column;
   width: 50px;
-
   justify-content: space-around;
 }
 .geral {
   width: 50px;
-  height: 50px;
+  height: 0px;
   border-radius: 50%;
   position: fixed;
   bottom: -250px;
   top: 200px;
 }
-body {
+label {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #5c5a5a;
+}
+
+textarea {
+  height: 200px;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  padding: 10px 5px;
+  height: 400px;
+  display: block;
+}
+
+button {
+  width: 90px;
+  align-self: center;
+  height: 40px;
+  font-size: larger;
+  color: rgb(65, 105, 225); 
+  margin-bottom: 20px;
 }

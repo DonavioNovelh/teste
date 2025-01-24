@@ -1,53 +1,63 @@
 :root {
-  background-color: #F7F7F7;
- 
-  
-
+  background-color: rgb(65, 105, 225);
 }
 
-html, body, #root {
+html,
+body,
+#root {
   width: 100%;
   height: 100%;
- 
 }
 .form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 10px;
-  
 }
 
 * {
-  
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1 {
-  color: #000000
-  ;
+  color: rgb(243, 243, 243);
   font-size: 36pt;
-  margin: 20px 0px;
-  
+  margin: 20px 10px;
+}
+
+input {
+   border: none;
+  border-bottom: 1.3px solid  #808080;
+  transition: 1s linear; 
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid  rgb(113, 143, 233) ;
+  transition: 1s linear;
 }
 .filho {
-  background-color: #A9A9A9;
   margin: 20px 0px;
-  height:70px;
+  height: 70px;
   border-radius: 10px;
   padding: 0px 10px;
   display: flex;
   flex-direction: column;
-  
 }
 input {
   width: 100%;
- 
 }
 h2 {
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 
 .searc {
@@ -55,7 +65,8 @@ h2 {
   flex-direction: row;
 }
 
-.searc > input, label {
+.searc > input,
+label {
   display: block;
 }
 
@@ -70,14 +81,14 @@ h2 {
   justify-content: space-between;
 }
 
-.Tarefas>p{
+.Tarefas > p {
   margin: 10px 15px;
 }
 .editar {
   display: flex;
   flex-direction: column;
   width: 50px;
-  
+
   justify-content: space-around;
 }
 .geral {
@@ -86,8 +97,7 @@ h2 {
   border-radius: 50%;
   position: fixed;
   bottom: -250px;
- top: 200px;
+  top: 200px;
 }
 body {
-
 }
